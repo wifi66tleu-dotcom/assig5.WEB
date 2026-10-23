@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f4f8;
+  color: #222;
+  margin: 0;
+}
+
+main {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+section {
+  background: #fff;
+  border-radius: 8px;
+  padding: 16px 20px;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  box-sizing: border-box;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+button {
+  margin-top: 12px;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 4px;
+  background: #2f6fed;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1f55c0;
+}
+
+#removeBtn {
+  background: #d9363e;
+}
+
+#removeBtn:hover {
+  background: #b02a31;
+}
+
+#message {
+  font-weight: bold;
+  color: #1a8a3a;
+}
+
+#hobbyList li {
+  margin-bottom: 4px;
+}
